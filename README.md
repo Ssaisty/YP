@@ -23,9 +23,9 @@
 
 Cтек технологий:
 * pandas
-* matplotlib
-* seaborn
 * sklearn
+* LinearRegression
+* MSE
 
 
 # Computer shop
@@ -42,6 +42,7 @@ Cтек технологий:
 * seaborn
 * matplotlib
 * scipy
+* numpy
 
 
 # CV
@@ -53,8 +54,9 @@ Cтек технологий:
 
 Стек технологий:
 * pandas
+* numpy
+* matplotlib
 * tensorflow
-* keras
 
 
 # Data preprocessing
@@ -72,7 +74,11 @@ Cтек технологий:
 
 Стек технологий:
 * pandas
+* phik
+* LogisticRegression
+* GridSearchCV, RandomizedSearchCV
 * CatBoost
+* ROC-AUC
 * sklearn
 * matplotlib
 * seaborn
@@ -86,6 +92,11 @@ Cтек технологий:
 * pandas
 * CatBoost
 * sklearn
+* RandomizedSearchCV
+* LogisticRegression
+* SGDClassifier
+* WordNetLemmatizer
+* Tfidf
 
 
 # Numeric methods
@@ -94,7 +105,11 @@ Cтек технологий:
 
 Стек технологий:
 * pandas
+* GridSearchCV, RandomizedSearchCV
 * CatBoost
+* RandomForestClassifier
+* LightGBM
+* OHE
 * matplotlib
 * seaborn
 * sklearn
@@ -102,12 +117,11 @@ Cтек технологий:
 
 # Research data analysis
 
-Я проводим углубленный анализ исторических данных объявлений о продаже квартир, чтобы выявить закономерности и зависимости, влияющие на их рыночную стоимость.
+Я провожу углубленный анализ исторических данных объявлений о продаже квартир, чтобы выявить закономерности и зависимости, влияющие на их рыночную стоимость.
 
 Стек технологий:
 * pandas
-* matplotlib
-* seaborn
+* math
 
 
 # Statistic data analysis
@@ -115,10 +129,11 @@ Cтек технологий:
 Используя информацию о пользователях из различных локаций и их маршрутах, я провёл анализ данных для проверки предположений, которые могут способствовать развитию бизнеса.
 
 Стек технологий:
-
 * Python для обработки данных
 * Pandas для манипуляций с данными и их структурирования
 * Scipy.stats для проверки гипотез
+* ttest_ind, ttest_1samp
+* numpy
 
 
 # Time series
@@ -128,6 +143,8 @@ Cтек технологий:
 Стек технологий:
 * pandas
 * CatBoost
+* RandomForestRegressor
+* XGBRegressor
 * matplotlib
 * statsmodels
 * sklearn
